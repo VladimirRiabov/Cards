@@ -13,9 +13,9 @@ struct CardsApp: App {
     var body: some Scene {
         WindowGroup {
             VStack {
-//                CardsView()
-//                 .environmentObject(viewState)
-                ResizableView()
+                CardsView()
+                 .environmentObject(viewState)
+//                ResizableView()
             }
             
         }
