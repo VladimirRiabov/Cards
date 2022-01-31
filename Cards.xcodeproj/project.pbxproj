@@ -28,6 +28,9 @@
 		A48232CC27A6DAE600AFDA1E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232CB27A6DAE600AFDA1E /* Operators.swift */; };
 		A48232CF27A6DBAF00AFDA1E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232CE27A6DBAF00AFDA1E /* PreviewData.swift */; };
 		A48232D127A6DBEA00AFDA1E /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232D027A6DBEA00AFDA1E /* TextExtensions.swift */; };
+		A48232D327A7E40900AFDA1E /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232D227A7E40900AFDA1E /* CardElement.swift */; };
+		A48232D527A7E49900AFDA1E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232D427A7E49900AFDA1E /* Card.swift */; };
+		A48232D727A7E4D200AFDA1E /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48232D627A7E4D200AFDA1E /* CardStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		A48232CB27A6DAE600AFDA1E /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		A48232CE27A6DBAF00AFDA1E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		A48232D027A6DBEA00AFDA1E /* TextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtensions.swift; sourceTree = "<group>"; };
+		A48232D227A7E40900AFDA1E /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
+		A48232D427A7E49900AFDA1E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A48232D627A7E4D200AFDA1E /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,6 @@
 		A478883127A5890300031615 = {
 			isa = PBXGroup;
 			children = (
-				A48232CE27A6DBAF00AFDA1E /* PreviewData.swift */,
 				A478883C27A5890300031615 /* Cards */,
 				A478883B27A5890300031615 /* Products */,
 			);
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A478884427A5890400031615 /* Preview Assets.xcassets */,
+				A48232CE27A6DBAF00AFDA1E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -122,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				A478885727A5BC4700031615 /* CardModal.swift */,
+				A48232D227A7E40900AFDA1E /* CardElement.swift */,
+				A48232D427A7E49900AFDA1E /* Card.swift */,
+				A48232D627A7E4D200AFDA1E /* CardStore.swift */,
 				A48232BD27A69CDA00AFDA1E /* Transform.swift */,
 				A478885127A595A100031615 /* ViewState.swift */,
 				A48232C927A6D69900AFDA1E /* CardToolbar.swift */,
@@ -236,6 +245,8 @@
 				A478883E27A5890300031615 /* CardsApp.swift in Sources */,
 				A478885027A58BCD00031615 /* SingleCardView.swift in Sources */,
 				A478885A27A5DE1500031615 /* CardBottomToolbar.swift in Sources */,
+				A48232D327A7E40900AFDA1E /* CardElement.swift in Sources */,
+				A48232D727A7E4D200AFDA1E /* CardStore.swift in Sources */,
 				A48232BC27A69C0600AFDA1E /* ResizableView.swift in Sources */,
 				A48232C327A6AC0100AFDA1E /* ViewExtensions.swift in Sources */,
 				A48232C627A6C5A200AFDA1E /* Settings.swift in Sources */,
@@ -243,6 +254,7 @@
 				A478885827A5BC4700031615 /* CardModal.swift in Sources */,
 				A48232BE27A69CDA00AFDA1E /* Transform.swift in Sources */,
 				A48232CF27A6DBAF00AFDA1E /* PreviewData.swift in Sources */,
+				A48232D527A7E49900AFDA1E /* Card.swift in Sources */,
 				A478885627A5BAB100031615 /* CardDetailView.swift in Sources */,
 				A48232D127A6DBEA00AFDA1E /* TextExtensions.swift in Sources */,
 				A48232C827A6C6DA00AFDA1E /* ColorExtensions.swift in Sources */,
